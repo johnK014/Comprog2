@@ -1,0 +1,25 @@
+print("""
+*******************************
+       RECTANGLE AREA          
+*******************************
+      """)
+
+l1 = float(input("Enter Rectangle 1 Length (m): "))
+w1 = float(input("Enter Rectangle 1  Width (m): "))
+
+rectangle1 = l1 * w1
+
+l2 = float(input("Enter Rectangle 2 Length (m): "))
+w2 = float(input("Enter Rectangle  2 Width (m): "))
+
+rectangle2 = l2 * w2
+
+# print(f"\nArea of Rectangle 1 is: {rectangle1}sqm")
+# print(f"Area of Rectangle 2 is: {rectangle2}sqm \n")
+
+if rectangle1 > rectangle2:
+    print("Area of Rectangle 1 is greater than Rectangle 2 \n")
+elif rectangle2 > rectangle1:
+    print("Area of Rectangle 2 is greater than Rectangle 1\n")
+else:
+    print("Both Rectangles have the same area\n")
