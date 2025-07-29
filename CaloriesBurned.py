@@ -1,0 +1,6 @@
+cal_per_min = 4.2
+
+print("Minutes\t\tCaloriesBurned")
+for min in range(10, 31, 5):
+    calories = cal_per_min*min
+    print(f"{min}\t\t{calories}")
